@@ -1,0 +1,100 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+Temp/
+Obj/
+UnityGenerated/
+Library/
+ScriptAssemblies/
+Build/
+Builds/
+UserSettings/
+Logs/
+
+# Avoid crash and memory dumps
+MemoryCaptures/
+Recordings/
+
+# =========== #
+# OS-specific #
+# =========== #
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# =========== #
+# Ignore code editors #
+# =========== #
+
+# Visual Studio / Rider / VSCode cache
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+*.user
+*.pidb
+*.booproj
+
+# Visual Studio Code settings
+.vscode/*
+
+# JetBrains Rider cache
+*.DotSettings.user
+
+# =========== #
+# Unity Builds #
+# =========== #
+
+# Build folders
+Build/
+Builds/
+bin/
+obj/
+
+# Addressables
+**/addressables_content_state.bin
+**/AddressablesBuildData/
+**/AddressablesLinkData/
+
+# Lightmaps / GI Cache (optional)
+LightmapSnapshot/
+LightingData.asset
+**/GICache/
+
+# =========== #
+# Generated data #
+# =========== #
+
+# Auto-generated materials
+**/*.mat.meta
+
+# Unity meta files – DO NOT IGNORE .meta
+# If ignored, Unity will break the project
+
+# =========== #
+# Other stuff #
+# =========== #
+
+# Logs
+*.log
+
+# Crash reports
+sysinfo.txt
+
+# Textures/Models backups
+*.psd
+*.tga
+*.blend1
+*.blend2
+
+# Package cache
+**/Packages/com.unity.*/*
