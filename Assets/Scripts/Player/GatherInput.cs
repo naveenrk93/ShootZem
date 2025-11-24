@@ -46,4 +46,9 @@ public class GatherInput : MonoBehaviour
         horizontalInput = moveActionRef.action.ReadValue<float>();
         verticalInput = verticalActionRef.action.ReadValue<float>();
     }
+
+    public void DisablePlayerMap()
+    {
+        playerMap.Disable();
+    }
 }

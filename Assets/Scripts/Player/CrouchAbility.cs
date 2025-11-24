@@ -35,12 +35,14 @@ public class CrouchAbility : BaseAbility
     public override void EnterAbility()
     {
         linkedPhysics.CrouchColliders();
+        player.playerStats.EnableCrouchCollider();
     }
 
     public override void ExitAbility()
     {
         wantToStop = false;
         linkedPhysics.StandColliders();
+        player.playerStats.EnableStandCollider();
     }
     
     private void TryToCrouch(InputAction.CallbackContext value)

@@ -18,6 +18,11 @@ public class DashAbility : BaseAbility
 
     }
 
+    public override void EnterAbility()
+    {
+        player.playerStats.DisableDamage();
+    }
+
     private void OnEnable()
     {
         dashActionRef.action.performed += TryToDash;
@@ -54,6 +59,7 @@ public class DashAbility : BaseAbility
         linkedPhysics.EnableGravity();
         //optional
         linkedPhysics.ResetVelocity();
+        player.playerStats.EnableDamage();
     }
 
 
